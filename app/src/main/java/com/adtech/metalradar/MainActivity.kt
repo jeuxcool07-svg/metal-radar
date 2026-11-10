@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
 
     companion object {
         // Écart (en µT) au-dessus de la valeur de base qui déclenche l'alerte
-        private const val SEUIL_UT = 60f
+        private const val SEUIL_UT = 8f
 
         // Nombre de mesures utilisées pour calculer la valeur de base
         private const val ECHANTILLONS_CALIBRATION = 25
